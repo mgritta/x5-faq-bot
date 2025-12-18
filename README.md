@@ -47,12 +47,12 @@ answer = assistant.ask_llm("Как долго длится стажировка?
 
 ## Endpoints
 
-`POST /ask` - Ask questions about internships
-```bash
-curl -X POST http://localhost:5001/ask \
--H "Content-Type: application/json" \
--d '{"question": "Your question"}'
-```
+`POST /ask` - ask questions about internships
+  ```bash
+  curl -X POST http://localhost:5001/ask \
+    -H "Content-Type: application/json" \
+    -d '{"question": "Your question"}'
+  ```
 
 
 ## Project Structure
