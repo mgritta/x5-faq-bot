@@ -57,9 +57,9 @@ answer = assistant.ask_llm("Как долго длится стажировка?
 
 ## Project Structure
 
-- `x5_bot.py` - Main assistant class with console interface
+- `x5_bot.py` - main assistant class with console interface
 - `api.py` - REST API server (Flask)
-- `x5_faq.json` - Structured internship data
+- `x5_faq.json` - structured internship data
 - `prompt.py` - LLM instructions and safety rules
-- `config.example.py` - Configuration template
-- `requirements.txt` - Dependencies (requests, flask)
+- `config.example.py` - configuration template
+- `requirements.txt` - dependencies (requests, flask)
