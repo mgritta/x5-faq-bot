@@ -19,7 +19,7 @@ Get an API key from [OpenRouter.ai](https://openrouter.ai) and add it to `config
 from x5_bot import X5FAQAssistant
 
 assistant = X5FAQAssistant()
-answer = assistant.ask_openrouter("Как долго длится стажировка?")
+answer = assistant.ask_llm("Как долго длится стажировка?")
 ```
 
 ## Project Structure

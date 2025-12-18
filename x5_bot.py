@@ -89,7 +89,7 @@ class X5FAQAssistant:
         
         return context
     
-    def ask_openrouter(self, question: str) -> str:
+    def ask_llm(self, question: str) -> str:
         context = self.format_context_for_llm()
         prompt = self.prompt_template.format(context=context, question=question)
         
@@ -192,7 +192,7 @@ class X5FAQAssistant:
                     print(".", end="", flush=True)
                     time.sleep(0.2)
                 
-                answer = self.ask_openrouter(question)
+                answer = self.ask_llm(question)
                 print(f"\nОтвет: {answer}")
                 
             except KeyboardInterrupt:
