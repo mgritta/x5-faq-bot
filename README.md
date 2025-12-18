@@ -8,6 +8,7 @@ Assistant for answering questions about X5 Tech internships. Provides both conso
 git clone https://github.com/mgritta/x5-faq-bot.git
 cd x5-faq-bot
 pip install -r requirements.txt
+cp config.example.py config.py
 ```
 
 Get an API key from [OpenRouter.ai](https://openrouter.ai) and add it to `config.py` (copy from `config.example.py`).
